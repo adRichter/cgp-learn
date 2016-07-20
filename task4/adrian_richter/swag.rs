@@ -1,6 +1,4 @@
-use std::fmt::Display;
-use std::fmt::Formatter;
-use std::fmt::Result;
+use std::fmt::{Display, Formatter, Result};
 
 fn main() {
     let s = Swagger { x: 56 };
